@@ -9,10 +9,13 @@ header {
     width: 100%;
     height: auto;
     background-color: #FFF8F3;
-    /* background: url('../images/header_bg.png'), url(../images/developer.png);
-    background-repeat: no-repeat; */
+    background: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size:auto 100%, auto 60%;
+    background-position: left bottom, right bottom;
 
 }
+
 /* navigaion section styles  */
 nav {
     width: 80%;
@@ -30,9 +33,15 @@ nav h3 {
     color: #181818;
     font-family: 'Open Sans', sans-serif;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: inherit;
+}
+
+nav a:hover {
+    color: #FD6E0A;
+    font-weight: 600;
 }
 
 nav h3 span {
@@ -51,6 +60,13 @@ nav li {
     list-style: none;
 }
 
+nav li a {
+    text-decoration: none;
+    color: #181818;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .btn {
     width: 150px;
     height: 64px;
@@ -62,11 +78,13 @@ nav li {
     font-weight: 700;
     cursor: pointer;
 }
+
 .btn:hover {
     background-color: white;
     border: 2px solid #FD6E0A;
     color: #FD6E0A;
 }
+
 .btn:active {
     background-color: #FD6E0A;
     color: white;
@@ -74,9 +92,11 @@ nav li {
 
 /* banner styles */
 .banner {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin: 50px 38px 0 230px;
     align-items: center;
 }
 
@@ -103,31 +123,32 @@ nav li {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    padding: 3% 0;
 }
 
 .btn-download {
     width: 200px;
     height: 64px;
     border-radius: 5px;
+    border: none;
     background: #FD6E0A;
     color: white;
     font-size: 20px;
     font-weight: 700;
-    margin-top: 30px;
+    cursor: pointer;
 }
 
 .btn-contact {
     width: 160px;
     height: 64px;
-    margin-top: 30px;
-    margin-left: 30px;
     border-radius: 5px;
-    background-color: #FFF8F3;
-    border: 1px solid #FD6E0A;
+    border: 2px solid #FD6E0A;
+    background-color: none;
     color: #FD6E0A;
-    text-align: center;
+    margin-left: 2%;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* main section */
@@ -323,12 +344,15 @@ nav li {
     margin-left: 24px;
 }
 
-.footer-item input[type="text"],input[type="email"], textarea {
+.footer-item input[type="text"],
+input[type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
     padding: 18px 30px;
 }
- input{
+
+input {
     height: 32px;
 }
 
