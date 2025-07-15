@@ -4,32 +4,30 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    height: 100%;
-    width: 100%;
-}
-
 /* header styles */
 header {
+    width: 100%;
+    height: auto;
     background-color: #FFF8F3;
     background: url('../images/header_bg.png'), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right, left;
-    margin-left: 23px;
 
 }
-
+/* navigaion section styles  */
 nav {
+    width: 80%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     margin: 50px 230px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 nav h3 {
     font-size: 45px;
     font-weight: 900;
     color: #181818;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav h3 span {
