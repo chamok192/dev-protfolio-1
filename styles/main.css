@@ -9,9 +9,9 @@ header {
     width: 100%;
     height: auto;
     background-color: #FFF8F3;
-    background: url('../images/developer.png'),url('../images/header_bg.png');
+    background: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-size:auto 100%, auto 60%;
+    background-size: auto 100%, auto 60%;
     background-position: left bottom, right bottom;
 
 }
@@ -117,13 +117,13 @@ nav li a {
 }
 
 .banner-description {
-    width: 585px;
+    width: 90%;
     color: #757575;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    padding: 3% 0;
+    padding: 4% 0;
 }
 
 .btn-download {
@@ -136,6 +136,17 @@ nav li a {
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
+}
+
+.btn-download:hover {
+    background-color: white;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
+.btn-download:active {
+    background-color: #FD6E0A;
+    color: white;
 }
 
 .btn-contact {
@@ -151,9 +162,19 @@ nav li a {
     cursor: pointer;
 }
 
+.btn-contact:hover {
+    background-color: #FD6E0A;
+    color: white;
+}
+
+.btn-contact:active {
+    background-color: white;
+    color: #FD6E0A;
+}
+
 /* main section */
 .main-container {
-    max-width: 1140px;
+    max-width:80%;
     margin: 0 auto;
 }
 
