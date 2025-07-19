@@ -226,10 +226,10 @@ nav li a {
     font-weight: 700;
     line-height: 30px;
 }
-
+/* what do i do section styles  */
 .what-i-do {
-    margin-top: 130px;
-    padding: 130px 345px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .what-i-do-title {
