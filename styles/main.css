@@ -174,7 +174,7 @@ nav li a {
 
 /* main section */
 .main-container {
-    max-width:80%;
+    max-width: 80%;
     height: auto;
     margin: 0 auto;
 }
@@ -226,6 +226,7 @@ nav li a {
     font-weight: 700;
     line-height: 30px;
 }
+
 /* what do i do section styles  */
 .what-i-do {
     width: 80%;
@@ -248,8 +249,9 @@ nav li a {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding-bottom:5%;
+    padding-bottom: 5%;
 }
+
 /* skill section styles  */
 .skill-container {
     display: flex;
@@ -262,11 +264,12 @@ nav li a {
     flex-direction: column;
     /* text-align: left !important; */
     border-radius: 5px;
-    padding:3%;
+    padding: 3%;
     background: white;
     box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.06);
 }
-.skill img{
+
+.skill img {
     width: 44px;
     height: 44px;
 }
@@ -287,13 +290,15 @@ nav li a {
     font-weight: 400;
     line-height: 28px;
 }
+
 /* resume section styling  */
 .resume {
     width: 80%;
     margin: 0 auto;
     padding-top: 7%;
 }
-.resume hr{
+
+.resume hr {
     border: 1px solid #D1D1D1;
     margin: 5% 0;
 }
@@ -308,7 +313,9 @@ nav li a {
 
 .resume-content {
     display: flex;
-    gap: 70px;
+    gap: 5%;
+    justify-content: center;
+
 }
 
 .resume-title {
@@ -340,29 +347,52 @@ nav li a {
 }
 
 .resume-button {
+    width: 100%;
+    /* margin: 0 auto; */
     text-align: center;
-    margin-top: 50px;
+    margin: 3% 0;
 }
 
 .cv-download {
     width: 200px;
     height: 64px;
     border-radius: 5px;
+    border: none;
     background: #FD6E0A;
+    color: white;
     font-size: 20px;
     font-weight: 700;
-    color: #FFF;
+    cursor: pointer;
 }
 
+.cv-download:hover {
+    background-color: white;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
+.cv-download:active {
+    background-color: #FD6E0A;
+    color: white;
+}
+
+/* footer section styles  */
 .footer {
     background: #FFF8F3;
-    margin-top: 113px;
+    margin-top: 10%;
 }
 
 .footer-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10%;
     display: flex;
-    gap: 117px;
-    padding: 130px 230px;
+    justify-content: space-between;
+}
+
+.footer-item {
+    width: 45%;
+    /* padding-top:10% ; */
 }
 
 .footer-title {
@@ -379,8 +409,10 @@ nav li a {
     margin-bottom: 30px;
 }
 
-.footer-item a img {
-    margin-left: 24px;
+.social-logos {
+    width: 50%;
+    display: flex;
+    gap: 20px;
 }
 
 .footer-item input[type="text"],
