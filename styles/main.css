@@ -250,7 +250,7 @@ nav li a {
     line-height: 30px;
     padding-bottom:5%;
 }
-
+/* skill section styles  */
 .skill-container {
     display: flex;
     justify-content: space-between;
@@ -287,10 +287,15 @@ nav li a {
     font-weight: 400;
     line-height: 28px;
 }
-
+/* resume section styling  */
 .resume {
-    margin-top: 130px;
-    padding: 0 230px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+.resume hr{
+    border: 1px solid #D1D1D1;
+    margin: 5% 0;
 }
 
 .section-title {
